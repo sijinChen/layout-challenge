@@ -1,0 +1,174 @@
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400);
+
+body{
+	font-family: "Lato", 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ }
+
+a:visited{
+	color:#0000AA;
+	text-decoration: none;
+}
+a:link{
+	color:#0000AA;
+	text-decoration: none;
+}
+a:hover { 
+    color: #0000EE;
+}
+:focus{
+	color: #0000EE;
+}
+
+h1{
+	font-family: "Raleway";
+	font-size: 18px;
+	font-weight: 300;
+	font-size:300%;
+	margin: 0;
+}
+
+h2{
+	font-family: "Raleway";
+	font-size: 18px;
+	font-weight: 300;
+	color:#505050;
+	font-size:150%;
+	margin: 0;
+}
+h3{
+	font-family: "Raleway";
+	font-size: 18px;
+	font-weight: 300;
+	color:#505050;
+	font-size:125%;
+}
+main{
+	margin-left: 30%;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	background-image: url('../img/ricepaper_v3.png');
+	opacity:0.9;
+}
+header{
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-color: #FA5A0F;
+	border-bottom: 5px;
+	border-bottom-color: #EA4A00;
+	color:#FFFFFF;
+}
+#tagLine{
+	font-size: 120%;
+	color:#EEEEEE;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+#basicInfo{
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+#menu{
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background:rgba(207,205,140,0.5);
+}
+dt{
+	font-weight: 400;
+}
+dd{
+	font-size: 80%;
+	font-style: italic;
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+#aboutUs{
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+footer{
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-color: #FC892F;
+	border-top: 5px;
+	border-top-color: #EC791F; 
+	font-size: 80%;
+	text-align: right;
+}
+nav ul{
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+padding-bottom: 0px;
+}
+nav li{
+	list-style-type: none;
+	display:inline-block;
+	margin-right: 1em;
+}
+nav a{
+	color:#55E ;
+}
+nav a:hover{
+	color:#00E;
+}
+nav a:focus{
+	color:#00E;
+}
+
+
+@media screen and (max-width: 992px) {
+	body{
+	font-size: 16px;
+	background-image: none;
+ 	}
+ 	#tagLine{
+	display:none;
+	}
+	.container-fluid{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	}
+	main{
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	body{
+		font-size: 18px;
+	 }
+	 .container-fluid{
+		margin-right: 20px;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	nav{
+		position: absolute;
+		right:30px;
+		top:30px;
+	}
+}
